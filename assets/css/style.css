@@ -453,7 +453,7 @@ section.testimonial {
 
  /* ---------------------------------------------------------------------- */
 
-/*  About-Page
+/*  Videos-Page
 /* ---------------------------------------------------------------------- */
 
 
@@ -513,7 +513,7 @@ h4.item-title.text-center {
 /* ---------------------------------------------------------------------- */
 
 .call-to-action{
-	background: url(../images/slides/img1.jpg) center center/cover no-repeat fixed;
+	background: url(../images/slides/img1.png) center center/cover no-repeat fixed;
 }
 .text-all {
   padding: 95px 0;
