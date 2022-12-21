@@ -30,7 +30,7 @@ a:hover, a:focus{
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
   border-color: #101010;
   margin: 0 auto;
-  max-width: 370px;
+  max-width: 510px;
 }
 
 .navbar-toggle {
@@ -78,7 +78,7 @@ label {
 
 #head {
 	background-size: cover;
-	height: 600px;
+	height: 200px;
 	text-align: center;
 	color: white;
 	font-weight: 300;
@@ -513,7 +513,7 @@ h4.item-title.text-center {
 /* ---------------------------------------------------------------------- */
 
 .call-to-action{
-	background: url(../images/slides/img1.png) center center/cover no-repeat fixed;
+	background: url(../images/slides/img1.jpg) center center/cover no-repeat fixed;
 }
 .text-all {
   padding: 95px 0;
