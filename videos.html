@@ -59,31 +59,6 @@
 </header>
 
 <!-/Header -->
-<!---->
-<div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
-                        class="sr-only">Close</span></button>
-                <h4 class="modal-title" id="myModalLabel">Image preview</h4>
-            </div>
-            <div class="modal-body">
-                <img src="" id="imagepreview" style="width: 1500px">
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            </div>
-        </div>
-    </div>
-</div>
-<script>
-    function show_img(img) {
-        $('#imagepreview').attr('src', img);
-        $('#imagemodal').modal('show');
-    }
-</script>
-<!--  -->
 <section class="main-contents">
     <h2 class="text-center sub-texts">Videos</h2>
     <div class="container">
@@ -91,44 +66,35 @@
         <div class="item-section col-md-4 col-sm-4 col-xs-12">
             <ul>
                 <li class="inline-text">
-                    <i>
-                        <button onclick="show_img('assets/images/doc/create_admin_user.gif')">Create admin user</button>
-                    </i><a href="assets/images/doc/create_admin_user.gif" target="_blank">view full screen</a>
+                    <a class="fa fa-external-link-square" href="assets/images/doc/create_admin_user.gif"
+                       target="_blank">Create admin user</a>
                 </li>
                 <li class="inline-text">
-                    <i>
-                        <button onclick="show_img('assets/images/doc/admin_add_new_user.gif')">Add new user</button>
-                    </i><a href="assets/images/doc/admin_add_new_user.gif" target="_blank">view full screen</a>
+                    <a class="fa fa-external-link-square" href="assets/images/doc/admin_add_new_user.gif"
+                       target="_blank">Add new user</a>
                 </li>
                 <li class="inline-text">
-                    <i>
-                        <button onclick="show_img('assets/images/doc/settings.gif')">Settings</button>
-                    </i><a href="assets/images/doc/settings.gif" target="_blank">view full screen</a>
+                    <a class="fa fa-external-link-square" href="assets/images/doc/settings.gif"
+                       target="_blank">Settings</a>
                 </li>
-
             </ul>
         </div>
         <div class="item-section col-md-4 col-sm-4 col-xs-12">
             <ul>
                 <li class="inline-text">
-                    <i>
-                        <button onclick="show_img('assets/images/doc/play_against_friend.gif')">Play against friend</button>
-                    </i><a href="assets/images/doc/play_against_friend.gif" target="_blank">view full screen</a>
+                    <a class="fa fa-external-link-square" href="assets/images/doc/play_against_friend.gif"
+                       target="_blank">Play against friend</a>
                 </li>
                 <li class="inline-text">
-                    <i>
-                        <button onclick="show_img('assets/images/doc/puzzle.gif')">Puzzle</button>
-                    </i><a href="assets/images/doc/puzzle.gif" target="_blank">view full screen</a>
+                    <a class="fa fa-external-link-square" href="assets/images/doc/play_against_engine.gif"
+                       target="_blank">Play against engine</a>
                 </li>
                 <li class="inline-text">
-                    <i>
-                        <button onclick="show_img('assets/images/doc/create_admin_user.gif')">Play against engine</button>
-                    </i><a href="assets/images/doc/create_admin_user.gif" target="_blank">view full screen</a>
+                    <a class="fa fa-external-link-square" href="assets/images/doc/puzzle.gif"
+                       target="_blank">Puzzle</a>
                 </li>
-
             </ul>
         </div>
-
     </div>
 </section>
 
@@ -139,7 +105,7 @@
     <div class="footer-section ">
         <div class="container">
             <div class="social pull-left">
-                <p><i>Theme by <a href="https://themewagon.com/">ThemeWagon</a></i> </p>
+                <p><i>Theme by <a href="https://themewagon.com/">ThemeWagon</a></i></p>
             </div>
             <div class="navigation">
                 <ul class="pull-right">
