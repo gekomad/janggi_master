@@ -5,16 +5,18 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-C7R2GKQ67N"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'G-C7R2GKQ67N');
     </script>
     <meta charset="utf-8">
-    <meta name="robots" content="noindex">
-    <meta name="googlebot" content="noindex">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="janggimaster, korean chess fow windows linux and mac">
+    <meta name="description" content="janggi uci engine, janggimaster, korean chess fow windows linux and mac">
     <title>Janggi master</title>
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
     <link rel="stylesheet" media="screen" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
@@ -47,12 +49,12 @@
             <ul class="nav navbar-nav  mainNav">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="videos.html">Videos</a></li>
-                <li class="active"><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
                 <li><a href="https://play.google.com/store/apps/details?id=com.github.gekomad.rangy_app"
                        target="_blank">Android App</a></li>
                 <li><a href="buy.html">Buy</a></li>
                 <li><a href="download.html">Download</a></li>
-                <li><a href="engine.html">Engine</a></li>
+                <li class="active"><a href="engine.html">Engine</a></li>
             </ul>
         </div>
         <!--/.nav-collapse -->
@@ -71,10 +73,33 @@
 
 <section class="contacts container">
 
-    <div class="contact-form-text col-md-6 col-sm-6 col-xs-12">
-        <p class="contact-form-texts"><b>Email:</b> giuseppe.cannella@gmail.com</p>
-        <p class="contact-form-texts"><b>Discord:</b> gekomad#9977</p>
-        <a href="https://github.com/gekomad" target="_blank">Github</a>
+    <div class="contact-form-text">
+        <p class="contact-form-texts">
+
+            <b>Rangy</b> is the UCI engine behind Janggi Master. It's a command line program so requires a
+            UCI-compatible graphical user interface (e.g. Winboard)
+            <br>
+            <br>
+
+        <ol type="1">
+            <li><a href="https://github.com/gekomad/janggi_master/releases/download/winboard/WinBoard.zip">Download
+                winboard</a></li>
+            <li>Run winboard.exe</li>
+            <li>Select 'Just view or edit game files'<img src="assets/images/winboard/1.png"></li>
+            <li>Click 'Load First Engine'  <img src="assets/images/winboard/2.png"></li>
+            <li>Load rangy_x.x.x_.exe (x.x.x is the version)  <img src="assets/images/winboard/3.png"></li>
+            <li>Click OK and play<img src="assets/images/winboard/4.png"></li>
+        </ol>
+        <br>
+        Credits
+        <lu>
+
+            <li>
+                <i>Winboard is an open source Graphical User Interface for Janggi
+                    by <a href="https://github.com/maksimKorzh" target="_blank">maksimKorzh</a>.</i>
+            </li>
+        </lu>
+
     </div>
 </section>
 
