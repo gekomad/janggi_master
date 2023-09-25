@@ -1,3 +1,3 @@
-# Enjoy playing Janggi
+# Enjoy playing Janggi and Xiangqi
 
-View [janggi_master](https://gekomad.github.io/janggi_master) site
+go new site View [Rangy Master](https://gekomad.github.io/rangy_master) site
